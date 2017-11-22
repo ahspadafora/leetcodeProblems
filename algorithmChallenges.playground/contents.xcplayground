@@ -4,5 +4,6 @@
         <page name='addTwoNumbers'/>
         <page name='medianOfTwoSortedArrs'/>
         <page name='twoSums'/>
+        <page name='reverseInt'/>
     </pages>
 </playground>
