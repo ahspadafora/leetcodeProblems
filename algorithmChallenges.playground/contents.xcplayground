@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='ios' executeOnSourceChanges='false'>
     <pages>
         <page name='addTwoNumbers'/>
+        <page name='medianOfTwoSortedArrs'/>
         <page name='twoSums'/>
     </pages>
 </playground>
