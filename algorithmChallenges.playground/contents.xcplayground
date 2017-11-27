@@ -5,5 +5,7 @@
         <page name='medianOfTwoSortedArrs'/>
         <page name='twoSums'/>
         <page name='reverseInt'/>
+        <page name='judgeRouteCircle'/>
+        <page name='reducedString'/>
     </pages>
 </playground>
