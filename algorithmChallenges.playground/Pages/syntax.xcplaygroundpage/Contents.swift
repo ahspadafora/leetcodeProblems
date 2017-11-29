@@ -23,7 +23,6 @@ struct Stack {
 }
 
 func match(input: String) -> Bool {
-    let syntax: [Character: Int] = ["(":0,")":0, "[":0,"]":0,"{":0,"}":0]
     let closingSyntax: [Character: Character] = ["(":")", "[": "]", "{":"}"]
     
     var inputStack = Stack()
