@@ -7,5 +7,6 @@
         <page name='reverseInt'/>
         <page name='judgeRouteCircle'/>
         <page name='reducedString'/>
+        <page name='syntax'/>
     </pages>
 </playground>
