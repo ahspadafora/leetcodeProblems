@@ -45,5 +45,10 @@ func match(input: String) -> Bool {
     }
     return inputStack.isEmpty()
 }
-print(match(input: "abc(def(ghi)"))
+
+match(input: "x(y(z{test})abc)") // should return true
+match(input: "()") // should return true
+match(input: "([)]") // should return false
+match(input: "[[]](()){{{}}}") // should return true
+match(input: "abc(def(ghi)") // should return false
 
