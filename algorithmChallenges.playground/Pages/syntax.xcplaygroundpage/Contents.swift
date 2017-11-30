@@ -31,14 +31,11 @@ func match(input: String) -> Bool {
         case "[", "(", "{":
             inputStack.push(element: char)
         case "]", ")", "}":
-            guard let lastOpenedChar = inputStack.pop() else {
-                return false
-            }
-            if let closingSymbolNeeded = closingSyntax[lastOpenedChar] {
-                if closingSymbolNeeded != char {
+            guard let lastOpenedChar = inputStack.pop(),
+                let closingSymbolNeeded = closingSyntax[lastOpenedChar],
+                closingSymbolNeeded == char else {
                     return false
                 }
-            }
         default:
             break
         }
